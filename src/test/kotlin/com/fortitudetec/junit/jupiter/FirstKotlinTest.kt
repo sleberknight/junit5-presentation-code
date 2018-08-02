@@ -10,6 +10,9 @@ private data class Person(val firstName: String,
                           val lastName: String,
                           val age: Int)
 
+/**
+ * Example test showing a basic JUnit Jupiter test in Kotlin.
+ */
 class FirstKotlinTest {
 
     @Test

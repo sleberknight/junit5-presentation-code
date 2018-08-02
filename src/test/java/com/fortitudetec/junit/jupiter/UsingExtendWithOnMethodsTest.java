@@ -9,6 +9,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.nio.file.Path;
 
+/**
+ * Example test using {@link ExtendWith} to register an extension.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#extensions">extensions</a>
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#extensions-registration-programmatic">programmatic extension registration</a>
+ */
 @Slf4j
 class UsingExtendWithOnMethodsTest {
 

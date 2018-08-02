@@ -11,6 +11,11 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * Example test logging all the various lifecycle points during test execution.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#extensions-execution-order">execution order of user code and extensions</a>
+ */
 @ExtendWith(LoggingExtension.class)
 @Slf4j
 class ExtensionLifecycleExampleTest {

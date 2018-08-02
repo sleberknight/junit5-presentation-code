@@ -13,6 +13,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Example test demonstrating {@link ParameterizedTest} and several value sources.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests">parameterized tests</a>
+ * @see ValueSource
+ * @see MethodSource
+ * @see EnumSource
+ * @see CsvFileSource
+ * @see org.junit.jupiter.params.provider.CsvSource
+ * @see org.junit.jupiter.params.provider.ArgumentsSource
+ * @see org.junit.jupiter.params.provider.ArgumentsSources
+ */
 class ParametersExampleTest {
 
     @ParameterizedTest

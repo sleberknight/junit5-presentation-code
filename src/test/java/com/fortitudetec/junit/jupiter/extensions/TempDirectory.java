@@ -21,6 +21,9 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 
 /**
+ * A JUnit Jupiter extension that creates a temporary folder before each test and ensures
+ * the folder is deleted after each test executes.
+ * <p>
  * Copied from JUnit 5 test source code; added logging. Not sure why they didn't include
  * this as an out-of-box extension, as it seems pretty useful to me given that I used the
  * TemporaryFolder rule often.

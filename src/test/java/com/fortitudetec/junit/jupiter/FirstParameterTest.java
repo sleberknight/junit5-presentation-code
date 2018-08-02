@@ -8,6 +8,11 @@ import org.junit.jupiter.api.TestInfo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Simple test showing dependency injection for methods.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests-dependency-injection">dependency injection</a>
+ */
 @Slf4j
 class FirstParameterTest {
 

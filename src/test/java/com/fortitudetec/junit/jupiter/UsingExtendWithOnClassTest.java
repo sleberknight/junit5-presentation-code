@@ -15,6 +15,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Example test using {@link ExtendWith} to register an extension.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#extensions">extensions</a>
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#extensions-registration-declarative">declarative extension registration</a>
+ */
 @ExtendWith(TempDirectory.class)
 @Slf4j
 class UsingExtendWithOnClassTest {

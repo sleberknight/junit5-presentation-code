@@ -15,6 +15,11 @@ import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Sets.newHashSet;
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * Some examples of using the Jupiter conditional test execution APIs.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests-conditional-execution">conditional tests</a>
+ */
 class ConditionalExecutionExampleTest {
 
     @Test
@@ -28,7 +33,7 @@ class ConditionalExecutionExampleTest {
     void doesNotRunOnMacsOrWindows() {
         assertThat("PassWROD").isEqualToIgnoringCase("passwrod");
     }
-    
+
     @Test
     @EnabledOnOs(OS.LINUX)
     void runsOnlyOnLinux() {

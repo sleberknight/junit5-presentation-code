@@ -10,6 +10,11 @@ import org.junit.jupiter.api.TestInfo;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Sample test showing {@link RepeatedTest}.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests-repeated-tests">repeated tests</a>
+ */
 @Slf4j
 class RepeatedExampleTest {
 

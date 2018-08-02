@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
+/**
+ * Sample test that uses the a custom extension.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#extensions">extensions</a>
+ */
 class SoftAssertionsExampleTest {
 
     @RegisterExtension

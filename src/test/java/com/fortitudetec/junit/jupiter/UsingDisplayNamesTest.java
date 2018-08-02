@@ -12,6 +12,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Example of using {@link DisplayName}.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests-display-names">display names</a>
+ */
 class UsingDisplayNamesTest {
 
     @Test

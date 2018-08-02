@@ -12,6 +12,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Example test showing how to use {@link Nested} in tests.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests-nested">nested tests</a>
+ */
 @DisplayName("An ArrayList")
 class NestedExampleTest {
 

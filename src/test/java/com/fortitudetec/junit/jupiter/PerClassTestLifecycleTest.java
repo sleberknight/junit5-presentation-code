@@ -5,6 +5,11 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
+/**
+ * Test demonstrating the "per class" test instance lifecycle.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-instance-lifecycle">test instance lifecycle</a>
+ */
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @Slf4j
 class PerClassTestLifecycleTest {

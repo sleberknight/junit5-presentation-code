@@ -16,6 +16,11 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * Example test showing the Jupiter migration support for JUnit 4 rules.
+ *
+ * @see <a href="https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4-rule-support">JUnit 4 rule migration support</a>
+ */
 @EnableRuleMigrationSupport
 @Slf4j
 class UsingMigrationSupportTest {

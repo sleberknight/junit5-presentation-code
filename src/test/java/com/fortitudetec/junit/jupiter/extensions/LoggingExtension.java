@@ -10,6 +10,9 @@ import org.junit.jupiter.api.extension.BeforeTestExecutionCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestExecutionExceptionHandler;
 
+/**
+ * A simple JUnit Jupiter extension that implements all the extension callback interfaces.
+ */
 @Slf4j
 public class LoggingExtension implements
         BeforeAllCallback, BeforeEachCallback, BeforeTestExecutionCallback,

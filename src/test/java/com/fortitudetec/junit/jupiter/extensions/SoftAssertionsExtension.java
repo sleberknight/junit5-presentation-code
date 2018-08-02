@@ -7,6 +7,10 @@ import org.junit.jupiter.api.extension.AfterEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 
 /**
+ * A JUnit Jupiter extension that lets you use AssertJ's {@link SoftAssertions} facility.
+ * This extension automatically calls the {@link SoftAssertions#assertAll()} after each
+ * test to verify all the assertions.
+ * <p>
  * This will ONLY work using the default "per method" test instance lifecycle.
  */
 @Beta
