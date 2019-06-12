@@ -6,6 +6,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
@@ -45,8 +46,9 @@ class ExtensionLifecycleExampleTest {
         assertThat(21 * 2).isEqualTo(42);
     }
 
-    // Note this test (intentionally) fails
+    // Note this test (intentionally) fails (but is disabled)
     @Test
+    @Disabled
     void exceptionThrowingTest() {
         throw new RuntimeException("oops");
     }
